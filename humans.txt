@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology used
+
+/* TEAM */
+	Co-Founder: Peyman Shojaei
+	Website: http://www.dunderline.io
+
+	Co-Founder: Hossein Kazemi
+	Website: http://hosseinkazemi.me
+
+/* SITE */
+	Language: English
+	Doctype:HTML5
+	IDE: Atom.io
