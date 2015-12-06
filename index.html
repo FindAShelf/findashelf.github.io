@@ -40,27 +40,6 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-67668810-1', 'auto');
-		ga('send', 'pageview');
-
-		var trackButtonClick = function(label) {
-			ga('send', 'event', 'button', 'click', label);
-		}
-
-	</script>
 </head>
 
 <body id="home">
@@ -76,7 +55,7 @@
 								<p>
 								</p>
 								<br>
-								<a class="btn yellow" href="#" data-toggle="modal" data-target="#subscribe-modal" onclick="trackButtonClick('Sign up'); return false;">SIGN UP FOR EARLY ACCESS</a>
+								<a class="btn yellow" href="#" data-toggle="modal" data-target="#subscribe-modal">SIGN UP FOR EARLY ACCESS</a>
 							</div>
 						</div>
 					</div>
@@ -89,7 +68,7 @@
 			<div class="modal-dialog modal-sm2">
 				<div class="modal-content">
 					<div class="modal-header">
-						<a class="close-modal" href="#" data-dismiss="modal" onclick="trackButtonClick('Dismiss modal'); return false;">
+						<a class="close-modal" href="#" data-dismiss="modal">
 							<span class="menu-icon"></span>
 						</a>
 					</div>
@@ -119,7 +98,7 @@
 							<div class="form-group">
 								<button type="button" class="btn btn-block" id="subscribe">Subscribe</button>
 							</div>
-							<p class="text-center"><a href="" data-dismiss="modal" onclick="trackButtonClick('Cancel'); return false;">Cancel</a>
+							<p class="text-center"><a href="" data-dismiss="modal">Cancel</a>
 							</p>
 						</form>
 					</div>
